@@ -1,5 +1,7 @@
 # SexyToken
 
+![使用示例](image/usage_example.png)
+
 Have you ever watched your code run elegantly late at night, yet felt a lingering unease?
 
 That invisible torrent of Tokens, like a mysterious lover, you crave its power but fear its unpredictability. Every API call feels like a heart-racing whisper - you get a response, but don't know the cost.
