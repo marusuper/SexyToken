@@ -27,8 +27,6 @@ When every creation is accompanied by absolute clarity and control; when every l
 - Support token pricing configuration for different models
 - Generate beautiful table output using rich library
 - Support displaying overall overview and detailed model usage
-- 🔥 **SexyToken Dance** - Fun character dancing animation to make cost analysis more enjoyable!
-- 💎 **SexyToken Icon** - A shiny, colorful ASCII art icon!
 
 ## Installation
 
