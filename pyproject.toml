@@ -1,0 +1,10 @@
+[project]
+name = "sexytoken"
+version = "0.0.1"
+description = "Token Usage Statistics Report Tool - A tool for analyzing token usage and costs with beautiful visualizations"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.28.0",
+    "rich>=13.0.0",
+]
