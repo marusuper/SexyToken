@@ -41,32 +41,32 @@ pip install -r requirements.txt
 #### Basic Usage
 
 ```bash
-python usage_report.py
+python src/usage_report.py
 ```
 
 #### Specify Service URL and Management Key
 
 ```bash
-python usage_report.py --url http://localhost:8317 --key your_management_key
+python src/usage_report.py --url http://localhost:8317 --key your_management_key
 ```
 
 #### Show Detailed Model Usage
 
 ```bash
-python usage_report.py --details
+python src/usage_report.py --details
 ```
 
 #### Show Summary Only (without model details)
 
 ```bash
-python usage_report.py --total
+python src/usage_report.py --total
 ```
 
 #### Set Management Key Using Environment Variable
 
 ```bash
 export CLI_PROXY_MANAGEMENT_KEY=your_management_key
-python usage_report.py
+python src/usage_report.py
 ```
 
 ## Command Line Arguments
@@ -133,7 +133,7 @@ SexyToken not only supports getting usage statistics from CLIProxyAPI but also s
 #### Method 1: Using Command Line Arguments
 
 ```bash
-python usage_report.py --glm-log-dir /path/to/glm/logs
+python src/usage_report.py --glm-log-dir /path/to/glm/logs
 ```
 
 #### Method 2: Modify Configuration File
@@ -175,16 +175,16 @@ GLM log files should follow the following format:
 
 ```bash
 # Basic usage (using default log directory)
-python usage_report.py
+python src/usage_report.py
 
 # Specify GLM log directory
-python usage_report.py --glm-log-dir /path/to/glm/logs
+python src/usage_report.py --glm-log-dir /path/to/glm/logs
 
 # Show detailed model usage (including GLM models)
-python usage_report.py --details
+python src/usage_report.py --details
 
 # Show summary only
-python usage_report.py --total
+python src/usage_report.py --total
 ```
 
 ### Output Description
